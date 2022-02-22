@@ -1,0 +1,7 @@
+ {
+  "name": "projects",
+  "version": "1.0.0",
+  "devDependencies": {
+    "formidable": "^2.0.1"
+  }
+}

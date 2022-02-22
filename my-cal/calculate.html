@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body class="body">
+        <div id="container">
+          <div id="calculator">
+            <div class="link">
+              <a class="herf" href="https://en-gb.facebook.com/login.php">FB</a>
+              <a class="herf" href="https://whatsapp.airflysoftware.com/Account/Login.aspx">WHP</a>
+              <a class="herf" href="https://www.youtube.com/">YUT</a>
+              <!-- <audio controls class="audio">
+                <source src="Joeboy-Alcohol-Prod.-By-Tempoe-www.GhCountdown.Net_.mp3" type="audio/mpeg">
+                </audio> -->
+            </div>
+            
+            <div id="result">
+              <div id="history">
+                <p id="history-value"></p>
+              </div>
+              <div id="output">
+                <p id="output-value"></p>
+              </div>
+            </div>
+            <div id="keyboard">
+              <button class="operator" id="clear">C</button>
+              <button class="operator" id="backspace">CE</button>
+              <button class="operator" id="%">%</button>
+              <button class="operator red" id="/">&#247;</button>
+              <button class="number" id="7">7</button>
+              <button class="number" id="8">8</button>
+              <button class="number" id="9">9</button>
+              <button class="operator" id="*">&times;</button>
+              <button class="number" id="4">4</button>
+              <button class="number" id="5">5</button>
+              <button class="number" id="6">6</button>
+              <button class="operator" id="-">-</button>
+              <button class="number" id="1">1</button>
+              <button class="number" id="2">2</button>
+              <button class="number" id="3">3</button>
+              <button class="operator" id="+">+</button>
+              <button class="empty" id="empty">!!</button>
+              <button class="number" id="0">0</button>
+              <button class="empty" id="null">!!!</button>
+              <button class="operator" id="=">=</button>
+            </div>
+          </div>
+        </div>
+      <style>
+#container{
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bgImg.jpg);
+	
+}
+#calculator{
+	width: 90%;
+	background-color: rgba(219, 182, 126, 0.568);
+	top: 20%;
+	position: relative;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ border-top: 20px solid black;
+ border-left: 10px solid rgba(128, 128, 128, 0.575);
+ border-right: 10px solid rgba(128, 128, 128, 0.575);
+ border-bottom: 45px solid black;
+}
+#result{
+height: 100%;
+}
+#history{
+	text-align: right;
+	height: 30%;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 25px;
+	color: #070000;
+}
+#output{
+	text-align: right;
+	height: 10vh;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#keyboard{
+	height: 60vh;
+	/* background-color: #919191; */
+  background-image: url("snake.jpg");
+
+}
+.herf{
+  text-decoration: none;
+}
+.link{
+  border: wheat;
+  background-color: wheat;
+  
+}
+.herf:hover{
+  background-color: #da2828b2;
+  font-size: 1.1rem;
+
+}
+.operator, .number, .empty{
+	width: 15%;
+	height: 50px;
+	margin: 4.5%;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.number, .empty,.null{
+	background-color: rgba(0, 0, 0, 0.521);
+  color: white;
+}
+.empty{
+  background-color: rgba(0, 0, 0, 0.897);
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 13%;
+}     .input {
+          width: 80%;
+          margin: 5%;
+          border: none;
+          font-size: 1rem;
+        }
+        .body {
+          margin-left: 37%;
+          margin-right: 37%;
+          background-image: url("pk.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          text-align: center;
+        }
+
+        
+      </style>
+      <script src="calculate.javascript"></script>
+</body>
+</html>

@@ -1,0 +1,297 @@
+#body{
+    margin: 0;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+#all>h2{
+    text-align: center;
+    color: slateblue;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: slateblue;
+   border-bottom: 2px double rebeccapurple;
+    height: 3em;
+
+}
+#heading{
+    background: rgba(36, 36, 66, 0.82);
+    padding-right: 40em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.header>a{
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rebeccapurple;
+}
+.header>a:hover{
+    color: white;
+    background-color: rgba(36, 36, 66, 0.82);
+    padding: 5px;
+    border-bottom: 2px solid white;
+}
+.link{
+    color: yellow;
+}
+.container{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.web{
+    display: block;
+    height: 30em;
+    width: 100%;
+}
+.house{
+    border-right: 2px double white;
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/05/16/41/programming-3201149__340.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home{
+    background-color: rgba(36, 36, 66, 0.82);
+    text-align: center;
+}
+.home>h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    color: slateblue;
+}
+.home>p{
+    color: white;
+}
+.home>ul{
+    color: white;
+    font-size: 2em;
+}
+#code{
+    text-align: center;
+    font-size: 2em;
+    text-transform: capitalize;
+   color: white;
+}
+.self{
+
+}
+#all>h2{
+    font-size: 3em;
+    text-transform: capitalize;
+    font-style: italic;
+    color: slateblue;
+}
+#onclick{
+    font-size: 2em;
+    font-style: italic;
+    text-transform: uppercase;
+    color: white;
+}
+#all>h2:hover{
+    color: blue;
+    font-size: 3.2em;
+}
+#second{
+    padding: 2em;
+}
+#first>h3{
+
+    font-size: 3em;
+    67font-family: SansSerif;
+    text-transform: capitalize;
+    padding-top: 1em;
+    text-decoration: underline;
+    color: slateblue;
+}
+.home>p{
+    font-size: 2em;
+}
+.ol{
+    font-size: 2em;
+    padding: 3rem;
+}
+#img{
+    /*border-radius: 50%;*/
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.ol{
+    font-size: 2em;
+    padding: 3rem;
+   color: white;
+    border-bottom-left-radius: 5rem;
+    border-top-left-radius: 5rem;
+}
+#second>h3{
+    color: slateblue;
+    font-size: 3em;
+    font-family: SansSerif;
+    text-transform: capitalize;
+    padding-top: 1em;
+    text-decoration: underline;
+}
+.footer{
+   background-color: slateblue;
+    margin: 0;
+    padding: 5px;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+}
+.header>p:hover{
+    color: white;
+}
+.footer>img{
+    width: 4%;
+    padding-right: 15%;
+    padding-left: 2.2%;
+}
+.footer>img:hover{
+    width: 5%;
+}
+@media screen and (min-width: 100px) and (max-width: 768px){
+  .container{
+      display: block;
+      width: 100%;
+  }
+    .header{
+        background-color: black;
+        color: slateblue;
+        text-align: center;
+        border-bottom: 3px double white ;
+
+    }
+    .header>p{
+        /*word-spacing: 5em;*/
+        line-height: 20px;
+    }
+    .link{
+        color: yellow;
+    }
+    .header>h1{
+        margin: 0;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding-bottom:5px;
+    }
+ *{
+     margin: 0!important;
+ }
+    .web{
+        display: block;
+        height: 10em;
+        width: 100%;
+    }
+    .house{
+        border-right: 2px double white;
+        background-image: url("https://cdn.pixabay.com/photo/2018/03/05/16/41/programming-3201149__340.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .home{
+        background-color: rgba(36, 36, 66, 0.82);
+        text-align: center;
+    }
+    .home>h2{
+        font-size: 2em;
+        text-transform: uppercase;
+        color: slateblue;
+    }
+    .home>p{
+        color: white;
+    }
+    .home>ul{
+        color: white;
+        font-size: 25px;
+    }
+    #code{
+        text-align: center;
+        font-size: 15px;
+        text-transform: capitalize;
+        color: white;
+    }
+    .self{
+
+    }
+    #all>h2{
+        font-size: 20px;
+        text-transform: capitalize;
+        font-style: italic;
+        color: slateblue;
+        text-align: center;
+    }
+    #onclick{
+        font-size: 25px;
+        font-style: italic;
+        text-transform: uppercase;
+        color: white;
+    }
+    #all>h2:hover{
+        color: blue;
+        font-size: 25px;
+    }
+    #second{
+        padding: 2em;
+    }
+    #first>h3{
+        text-align: center;
+        font-size: 25px;
+        font-family: SansSerif;
+        text-transform: capitalize;
+        padding-top: 1em;
+        text-decoration: underline;
+        color: slateblue;
+    }
+    .home>p{
+        font-size: 20px;
+    }
+
+    #img{
+        /*border-radius: 50%;*/
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .ol{
+        line-height: 25px;
+        font-size: 20px;
+        padding: 3rem;
+        color: white;
+        border-bottom-left-radius: 5rem;
+        border-top-left-radius: 5rem;
+    }
+    #second>h3{
+        color: slateblue;
+        font-size: 20px;
+        font-family: SansSerif;
+        text-transform: capitalize;
+        padding-top: 1em;
+        text-decoration: underline;
+    }
+    .footer{
+        background-color: slateblue;
+        margin: 0;
+        padding: 10px;
+        font-size: 1em;
+        text-align: center;
+        word-spacing: 2em;
+        color: white;
+    }
+    .heder>p:hover{
+
+        color: black;
+    }
+    .footer>img{
+        width: 5%;
+        padding-right: 5%;
+        padding-left: 2.2%;
+    }
+    .footer>img:hover{
+        width: 5%;
+    }
+}
